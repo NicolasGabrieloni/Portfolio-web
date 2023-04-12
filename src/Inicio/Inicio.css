@@ -20,11 +20,13 @@ body {
 .initContainer h2 {
     color: rgb(142, 130, 85);
     font-size: 70px;
+    margin-left: 30px;
 }
 
 .initContainer p {
     color: rgb(142, 130, 85);
     font-size: 70px;
+    margin-left: 40px;
 }
 
 @media (max-width: 1024px) {
@@ -57,5 +59,15 @@ body {
     }
     .initContainer {
         min-height: 600px;
+    }
+}
+
+@media (max-width: 375px) {
+        .initContainer h2 {
+        font-size: 20px;
+    }
+
+    .initContainer p {
+        font-size: 20px;
     }
 }

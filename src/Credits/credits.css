@@ -1,0 +1,26 @@
+.containerCredits {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+
+.textC {
+    color: white;
+}
+
+.textC a {
+    color: rgb(142, 130, 85);
+    text-decoration: none;
+}
+.textC a svg {
+    font-size: 19px;
+}
+
+@media (max-width: 425px) {
+    .textC {
+        font-size: 12px;
+    }
+    .textC a svg {
+        font-size: 15px;
+    }
+}

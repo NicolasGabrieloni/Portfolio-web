@@ -6,6 +6,7 @@ import { Skills } from './Skills';
 import { Proyectos } from './Proyectos'
 import { Contacto } from './Contacto';
 import { Aboutme } from './Aboutme';
+import { Credits } from './Credits';
 import AOS from 'aos';
 
 
@@ -175,9 +176,10 @@ function App() {
   return (
     <div className="App">
 
-
       <Menu />
+      
       <Contacto />
+
       <Inicio
         tittle1={state.tittle1}
         tittle2={state.tittle2}
@@ -188,7 +190,9 @@ function App() {
       />
 
       <Aboutme />
+
       <div className='fondo2'></div>
+
       <Skills
         handleHTMLEnter={handleHTMLEnter}
         handleHTMLLeave={handleHTMLLeave}
@@ -218,6 +222,7 @@ function App() {
 
       <Proyectos />
 
+      <Credits />
     </div>
   );
 }
