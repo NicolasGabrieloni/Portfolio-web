@@ -80,3 +80,9 @@ html {
 .nav a:hover {
     color: rgb(224, 225, 221);
 }
+
+@media (max-width: 425px) {
+    .nav a {
+        font-size: 13px;
+    }
+}

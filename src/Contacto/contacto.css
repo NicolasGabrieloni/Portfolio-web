@@ -5,6 +5,7 @@
     position: fixed;
     top: 15%;
     left: 46%;
+    z-index: 1;
 }
 
 .contactChild {
@@ -45,6 +46,56 @@
     scale: 1.1;
     transition: .3s;
 }
+
 .btns button svg {
     margin-top: 5px;
+}
+
+@media (max-width: 1024px) {
+    .tittleContact {
+        font-size: 12px;
+    }
+
+    .btns button {
+        width: 50px;
+        height: 30px;
+    }
+
+    .btns button svg {
+        margin-top: 0;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactContainer {
+        left: 45%;
+    }
+}
+
+@media (max-width: 425px) {
+    .contactContainer {
+        left: 42.5%;
+    }
+
+    .tittleContact {
+        font-size: 10px;
+    }
+
+    .btns button {
+        width: 40px;
+        height: 25px;
+    }
+
+    .btns button svg {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .contactContainer {
+        left: 41%;
+    }
 }

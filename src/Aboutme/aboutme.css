@@ -55,3 +55,64 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (max-width: 1024px) {
+    .fondo2 {
+        height: 385px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tittleAbout {
+        font-size: 40px;
+    }
+
+    .fotuki {
+        width: 200px;
+        height: 200px;
+    }
+
+    .textContainer {
+        margin-left: 70px;
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .aboutContainer {
+        height: 620px;
+    }
+}
+
+@media (max-width: 425px) {
+    .tittleAbout {
+        font-size: 35px;
+    }
+
+    .fotuki {
+        width: 150px;
+        height: 150px;
+    }
+
+    .textContainer {
+        margin-left: 50px;
+        width: 150px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 375px) {
+    .tittleAbout {
+        font-size: 35px;
+    }
+
+    .fotuki {
+        width: 125px;
+        height: 125px;
+    }
+
+    .textContainer {
+        margin-left: 40px;
+        width: 125px;
+        font-size: 12px;
+    }
+}

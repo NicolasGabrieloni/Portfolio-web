@@ -26,3 +26,36 @@ body {
     color: rgb(142, 130, 85);
     font-size: 70px;
 }
+
+@media (max-width: 1024px) {
+    .initContainer h2 {
+        font-size: 60px;
+    }
+
+    .initContainer p {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .initContainer h2 {
+        font-size: 54px;
+    }
+
+    .initContainer p {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 425px) {
+    .initContainer h2 {
+        font-size: 30px;
+    }
+
+    .initContainer p {
+        font-size: 30px;
+    }
+    .initContainer {
+        min-height: 600px;
+    }
+}
