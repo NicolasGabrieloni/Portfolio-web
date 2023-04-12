@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navcont {
+    width: 100%;
+    min-height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.486);
+    position: fixed;
+    border-bottom: 2px solid rgb(175, 175, 175);
+    z-index: 1;
+}
+
+.nav {
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.nav * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+    padding: 0;
+}
+
+.nav a {
+    padding: .5em .8em;
+    color: rgb(175, 175, 175);
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a::before,
+.nav a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+}
+
+.nav a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid rgb(142, 130, 85);
+    border-right: 3px solid rgb(142, 130, 85);
+    transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid rgb(142, 130, 85);
+    border-left: 3px solid rgb(142, 130, 85);
+    transform: translate(100%, -50%)
+}
+
+.nav a:hover:before,
+.nav a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.nav a:hover {
+    color: rgb(224, 225, 221);
+}
