@@ -1,6 +1,6 @@
 import React from 'react';
 import './aboutme.css';
-import MyImage from '../imagenes/pic-two.png';
+import MyImage from '../imagenes/me.jpg';
 import 'aos/dist/aos.css';
 
 function Aboutme(props) {
@@ -15,7 +15,7 @@ function Aboutme(props) {
                         Mi tecnologia favorita es React.js</p>
                 </div>
             </div>
-            <button className='cvBtn'>Descargar CV</button>
+            <a href="../imagenes/cv.pdf" download><button className='cvBtn'>Descargar CV</button></a>
         </div>
     );
 }

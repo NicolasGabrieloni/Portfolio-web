@@ -16,7 +16,9 @@
 
 .fotuki {
     width: 250px;
-    height: 250px;
+    height: 290px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px rgb(142, 130, 85);
 }
 
 .infoContainer {
@@ -69,7 +71,7 @@
 
     .fotuki {
         width: 200px;
-        height: 200px;
+        height: 240px;
     }
 
     .textContainer {
@@ -90,7 +92,7 @@
 
     .fotuki {
         width: 150px;
-        height: 150px;
+        height: 180px;
     }
 
     .textContainer {
@@ -107,7 +109,7 @@
 
     .fotuki {
         width: 125px;
-        height: 125px;
+        height: 155px;
     }
 
     .textContainer {
