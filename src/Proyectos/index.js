@@ -13,25 +13,15 @@ function Proyectos(props) {
                     <div data-aos="zoom-in"
                         data-aos-duration="1000"
                         className='card c1'
-                    > <a href='https://nicolasgabrieloni.github.io/calculator/'>
+                    > <a href='https://estudio-atlas.netlify.app/'>
                             <div className='tapa'>
-                                <h3>Calculator with themes</h3>
+                                <h3>Landing Page</h3>
                             </div>
                         </a>
                     </div>
                     <div data-aos="zoom-in"
                         data-aos-duration="1000"
                         className='card c2'
-                    >
-                        <a href='https://nicolasgabrieloni.github.io/Calculator-Tip/'>
-                            <div className='tapa'>
-                                <h3>Calculator Tip</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div data-aos="zoom-in"
-                        data-aos-duration="1000"
-                        className='card c3'
                     >
                         <a href='https://caloriesapp.netlify.app/'>
                             <div className='tapa'>
@@ -41,13 +31,24 @@ function Proyectos(props) {
                     </div>
                     <div data-aos="zoom-in"
                         data-aos-duration="1000"
-                        className='card c4'
+                        className='card c3'
                     >
-                        <a href='https://estudio-atlas.netlify.app/'>
+                        <a href='https://nicolasgabrieloni.github.io/calculator/'>
                             <div className='tapa'>
-                                <h3>Landing Page</h3>
+                                <h3>Calculator with themes</h3>
                             </div>
                         </a>
+                    </div>
+                    <div data-aos="zoom-in"
+                        data-aos-duration="1000"
+                        className='card c4'
+                    >
+                        <a href='https://nicolasgabrieloni.github.io/Calculator-Tip/'>
+                            <div className='tapa'>
+                                <h3>Calculator Tip</h3>
+                            </div>
+                        </a>
+
                     </div>
                 </div>
             </div>

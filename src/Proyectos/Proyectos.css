@@ -39,28 +39,29 @@
 }
 
 .c1 {
-    background-image: url(../imagenes/calcu.png);
+    background-image: url(../imagenes/estudioatlas.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 .c2 {
-    background-image: url(../imagenes/calctip.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.c3 {
     background-image: url(../imagenes/calories.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.c3 {
+    background-image: url(../imagenes/calcu.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .c4 {
-    background-image: url(../imagenes/estudioatlas.png);
+    background-image: url(../imagenes/calctip.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
