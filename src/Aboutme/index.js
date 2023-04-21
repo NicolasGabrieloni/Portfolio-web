@@ -15,7 +15,7 @@ function Aboutme(props) {
                         Mi tecnologia favorita es React.js</p>
                 </div>
             </div>
-            <a href="https://drive.google.com/file/d/15K2JOfUtehlj2J6hIqJ7PXd4g8SO4Rwl/view?usp=share_link"><button className='cvBtn'>Curriculum</button></a>
+            <a href="https://drive.google.com/file/d/1rErlx-ZLj4lJNUGBomAadeg1Zan_-uDj/view?usp=share_link"><button className='cvBtn'>Curriculum</button></a>
         </div>
     );
 }
