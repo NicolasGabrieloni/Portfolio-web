@@ -9,6 +9,13 @@ function Proyectos(props) {
       <div className="proyectChild">
         <h2 className="tittleP">Projects</h2>
         <div className="cards">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="card c3">
+            <a href="https://github.com/NicolasGabrieloni/meal-planner">
+              <div className="tapa">
+                <h3>Meal-Planner</h3>
+              </div>
+            </a>
+          </div>
           <div data-aos="zoom-in" data-aos-duration="1000" className="card c4">
             <a href="https://shoppi-commerce.netlify.app/">
               <div className="tapa">
@@ -27,13 +34,6 @@ function Proyectos(props) {
             <a href="https://caloriesapp.netlify.app/">
               <div className="tapa">
                 <h3>Calories App</h3>
-              </div>
-            </a>
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" className="card c3">
-            <a href="https://nicolasgabrieloni.github.io/calculator/">
-              <div className="tapa">
-                <h3>Calculator with themes</h3>
               </div>
             </a>
           </div>

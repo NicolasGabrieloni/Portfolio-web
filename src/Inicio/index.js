@@ -21,7 +21,7 @@ function Inicio(props) {
                 onMouseEnter={props.handletittle2Enter}
                 onMouseLeave={props.handletittle2Leave}
             >
-                I'm a<br></br> Front-end<br></br> developer
+                I'm a<br></br> Fullstack<br></br> developer
             </p>
         </div>
     )

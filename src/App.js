@@ -14,13 +14,17 @@ function App() {
 
   const [state, setState] = useState({
     html: true,
-    bootstrap: true,
+    typescript: true,
     react: true,
     github: true,
     css: true,
     js: true,
     git: true,
-    sass: true,
+    tailwind: true,
+    next: true,
+    prisma: true,
+    mySql: true,
+    apiRest: true,
     tittle1: true,
     tittle2: true,
   });
@@ -70,19 +74,19 @@ function App() {
     })
     console.log(state.html)
   }
-  const handlebootstrapEnter = () => {
+  const handleTypescriptEnter = () => {
     setState({
       ...state,
-      bootstrap: !state.bootstrap,
+      typescript: !state.typescript,
     })
-    console.log(state.bootstrap)
+    console.log(state.typescript)
   }
-  const handlebootstrapLeave = () => {
+  const handleTypescriptLeave = () => {
     setState({
       ...state,
-      bootstrap: !state.bootstrap,
+      typescript: !state.typescript,
     })
-    console.log(state.bootstrap)
+    console.log(state.typescript)
   }
   const handlereactEnter = () => {
     setState({
@@ -154,19 +158,76 @@ function App() {
     })
     console.log(state.git)
   }
-  const handlesassEnter = () => {
+  const handleTailwindEnter = () => {
     setState({
       ...state,
-      sass: !state.sass,
+      tailwind: !state.tailwind,
     })
-    console.log(state.sass)
+    console.log(state.tailwind)
   }
-  const handlesassLeave = () => {
+  const handleTailwindLeave = () => {
     setState({
       ...state,
-      sass: !state.sass,
+      tailwind: !state.tailwind,
     })
-    console.log(state.sass)
+    console.log(state.tailwind)
+  }
+
+  const handleApiRestEnter = () => {
+    setState({
+      ...state,
+      apiRest: !state.apiRest,
+    })
+    console.log(state.apiRest)
+  }
+  const handleApiRestLeave = () => {
+    setState({
+      ...state,
+      apiRest: !state.apiRest,
+    })
+    console.log(state.apiRest)
+  }
+  const handleNextEnter = () => {
+    setState({
+      ...state,
+      next: !state.next,
+    })
+    console.log(state.next)
+  }
+  const handleNextLeave = () => {
+    setState({
+      ...state,
+      next: !state.next,
+    })
+    console.log(state.next)
+  }
+  const handlePrismaEnter = () => {
+    setState({
+      ...state,
+      prisma: !state.prisma,
+    })
+    console.log(state.prisma)
+  }
+  const handlePrismaLeave = () => {
+    setState({
+      ...state,
+      prisma: !state.prisma,
+    })
+    console.log(state.prisma)
+  }
+  const handleSqlEnter = () => {
+    setState({
+      ...state,
+      mySql: !state.mySql,
+    })
+    console.log(state.mySql)
+  }
+  const handleSqlLeave = () => {
+    setState({
+      ...state,
+      mySql: !state.mySql,
+    })
+    console.log(state.mySql)
   }
 
 
@@ -196,8 +257,8 @@ function App() {
       <Skills
         handleHTMLEnter={handleHTMLEnter}
         handleHTMLLeave={handleHTMLLeave}
-        handlebootstrapEnter={handlebootstrapEnter}
-        handlebootstrapLeave={handlebootstrapLeave}
+        handleTypescriptEnter={handleTypescriptEnter}
+        handleTypescriptLeave={handleTypescriptLeave}
         handlereactEnter={handlereactEnter}
         handlereactLeave={handlereactLeave}
         handlegithubEnter={handlegithubEnter}
@@ -208,16 +269,29 @@ function App() {
         handlejsLeave={handlejsLeave}
         handlegitEnter={handlegitEnter}
         handlegitLeave={handlegitLeave}
-        handlesassEnter={handlesassEnter}
-        handlesassLeave={handlesassLeave}
+        handleTailwindEnter={handleTailwindEnter}
+        handleTailwindLeave={handleTailwindLeave}
+        handleApiRestEnter={handleApiRestEnter}
+        handleApiRestLeave={handleApiRestLeave}
+        handleNextEnter={handleNextEnter}
+        handleNextLeave={handleNextLeave}
+        handlePrismaEnter={handlePrismaEnter}
+        handlePrismaLeave={handlePrismaLeave}
+        handleSqlEnter={handleSqlEnter}
+        handleSqlLeave={handleSqlLeave}
         html={state.html}
-        bootstrap={state.bootstrap}
+        typescript={state.typescript}
         react={state.react}
         github={state.github}
         css={state.css}
         js={state.js}
         git={state.git}
-        sass={state.sass}
+        tailwind={state.tailwind}
+        apiRest={state.apiRest}
+        next={state.next}
+        prisma={state.prisma}
+        mySql={state.mySql}
+
       />
 
       <Proyectos />

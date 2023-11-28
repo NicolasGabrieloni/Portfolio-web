@@ -117,4 +117,8 @@
         width: 125px;
         font-size: 12px;
     }
+
+    .cvBtn {
+        margin-top: 20px;
+    }
 }
